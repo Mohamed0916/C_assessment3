@@ -5,10 +5,10 @@ int main(){
     printf("Enter a number:");
     scanf("%d",&a);
     if(a<50){
-        printf("%d",1);
+        printf("Success");
     }
     else{
-        printf("%d",0);
+        printf("Failure");
     }
     return 0;
 }

@@ -7,10 +7,10 @@ int main(){
     b=(a/10)%10;
     c=a%10;
     if(b>c){
-        printf("%d",1);
+        printf("Success");
     }
     else{
-        printf("%d",0);
+        printf("Failure");
     }
     return 0;
 }
